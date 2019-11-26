@@ -1,4 +1,7 @@
 (RaiselyComponents) => (props) => {
+	// log out info on data and components
+	console.log("All possible html and data within raisely: ", RaiselyComponents, props);
+	// define raisely components
 	const { ProgressBar, ProfileTile } = RaiselyComponents.Atoms;
 	// set the cost of the meal is 2000 cents aka $20
 	const mealCost = 2000;
