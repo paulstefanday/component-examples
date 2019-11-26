@@ -1,5 +1,5 @@
 (RaiselyComponents) => (props) => {
-	const { ProgressBar, ProfileTile } = RaiselyComponents.Atoms;
+	const { ProgressBar, ProfileTile, Button } = RaiselyComponents.Atoms;
 	// set the cost of the meal is 2000 cents aka $20
 	const mealCost = 2000;
 	// get campaign data
